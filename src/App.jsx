@@ -1,7 +1,9 @@
 import "./App.css";
+// Component
+import MemoryGame from "./components/MemoryGame";
 
 function App() {
-  return <div className="font-bold underline">hello</div>;
+  return <MemoryGame />;
 }
 
 export default App;
